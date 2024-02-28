@@ -38,7 +38,7 @@ This tool automates the analysis and ranking of convertible bonds based on vario
 
 ## Features
 - **Real-time Data Updates**: Fetches and updates convertible bond and underlying stock data in real-time.
-  ![](screenshots/Reatime_underlying_values.png)
+  ![](.screenshots/Reatime_underlying_values.png)
 - **Multifactor Ranking Models**: Includes several strategies for ranking convertible bonds, such as low premium rate, double low strategy, high differential volatility, and others.
 - **Excel Integration**: Directly updates and manipulates Excel spreadsheets with financial data for easy analysis.
 
