@@ -12,9 +12,7 @@ This tool automates the analysis and ranking of convertible bonds based on vario
    
 2. **Install Dependencies**
    - Ensure Python 3.x is installed on your system. For example:
-     ```
-   - https://www.python.org/ftp/python/3.8.7/python-3.8.7-amd64.exe
-     ```
+     https://www.python.org/ftp/python/3.9.9/python-3.9.9-amd64.exe
    - Install the required Python libraries:
      ```
      pip install pandas numpy xlwings requests pysnowball browser_cookie3 scipy
