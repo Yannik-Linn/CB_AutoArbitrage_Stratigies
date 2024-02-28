@@ -34,6 +34,7 @@ This tool automates the analysis and ranking of convertible bonds based on vario
      ```
      python main.py
      ```
+   - Alternatively, you may also click the "Refresh" button in every sheet of the excel file, which will allow the xlwings to call UDF server to exeucate the scripts related to each sheet.
 
 ## Features
 - **Real-time Data Updates**: Fetches and updates convertible bond and underlying stock data in real-time.
