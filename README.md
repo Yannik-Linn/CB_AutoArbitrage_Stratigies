@@ -34,13 +34,22 @@ This tool automates the analysis and ranking of convertible bonds based on vario
      ```
      python main.py
      ```
+     ![](.screenshots/Script_in_Spyder.png)
    - Alternatively, you may also click the "Refresh" button in every sheet of the excel file, which will allow the xlwings to call UDF server to exeucate the scripts related to each sheet.
+     ![](.screenshots/Updata_Realtime_data.png)
 
 ## Features
 - **Real-time Data Updates**: Fetches and updates convertible bond and underlying stock data in real-time.
   ![](.screenshots/Reatime_underlying_values.png)
+  ![](.screenshots/Excel_Bond_sheet.png)
+- **Arbitrage Opportunity Searching**: with several strategies for price value mismatches, such as low premium rate, high value-bias rotation, high differential volatility, and others.
+  ![](.screenshots/Single-factor_Strategy)
 - **Multifactor Ranking Models**: Includes several strategies for ranking convertible bonds, such as low premium rate, double low strategy, high differential volatility, and others.
+  ![](.screenshots/Single-factor_Strategy)
 - **Excel Integration**: Directly updates and manipulates Excel spreadsheets with financial data for easy analysis.
+  ![](.screenshots/Reatime_underlying_values.png)
+  ![](.screenshots/Reatime_underlying_values.png)
+  ![](.screenshots/Reatime_underlying_values.png)
 
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request with your suggestions or enhancements.
