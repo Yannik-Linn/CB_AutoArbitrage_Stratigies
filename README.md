@@ -21,8 +21,13 @@ This tool automates the analysis and ranking of convertible bonds based on vario
 ## Usage
 
 1. **Setup Excel**
-   - Open your Excel workbook designed to work with this tool.
-   - Ensure macros are enabled for `xlwings` integration.
+   - Open the Excel workbook designed to work with this tool: AutoArbitrage.xlsm
+   - Ensure macros are enabled for `xlwings` integration. Open the console to run:
+     ```
+     xlwings addin install
+     ```
+   - Activate the addon in MS Excel following: file >  Options > Trust Center > configure Trust Center > Macrons Settings > Select "Turn on VBA macrons" and click "Trust the visit for VBA project subject models"
+   - Set Firefox as your default explorer, to allow the program to visit the data source website and obtain a free token
 
 2. **Run the Program**
    - Execute the main script to start the analysis:
