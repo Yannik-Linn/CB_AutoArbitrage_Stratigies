@@ -15,7 +15,7 @@ This tool automates the analysis and ranking of convertible bonds based on vario
      https://www.python.org/ftp/python/3.9.9/python-3.9.9-amd64.exe
    - Install the required Python libraries:
      ```
-     pip install pandas numpy xlwings requests pysnowball browser_cookie3 scipy
+     pip install pandas schedule xlwings requests scipy pysnowball browser-cookie3 chinese_calendar
      ```
 
 ## Usage
