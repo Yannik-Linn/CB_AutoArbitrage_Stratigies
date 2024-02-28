@@ -43,13 +43,14 @@ This tool automates the analysis and ranking of convertible bonds based on vario
   ![](.screenshots/Reatime_underlying_values.png)
   ![](.screenshots/Excel_Bond_sheet.png)
 - **Arbitrage Opportunity Searching**: with several strategies for price value mismatches, such as low premium rate, high value-bias rotation, high differential volatility, and others.
-  ![](.screenshots/Single-factor_Strategy)
+  ![](.screenshots/CurrentPrice_vs_ConversionValue.png)
+  ![](.screenshots/CurrentPrice_vs_impliedOptionPrice.png)
 - **Multifactor Ranking Models**: Includes several strategies for ranking convertible bonds, such as low premium rate, double low strategy, high differential volatility, and others.
-  ![](.screenshots/Single-factor_Strategy)
+  ![](.screenshots/Mutifactor_Strategy.png)
+  ![](.screenshots/PriceValueBias_vs_DifferentialVolitality.png)
 - **Excel Integration**: Directly updates and manipulates Excel spreadsheets with financial data for easy analysis.
-  ![](.screenshots/Reatime_underlying_values.png)
-  ![](.screenshots/Reatime_underlying_values.png)
-  ![](.screenshots/Reatime_underlying_values.png)
+  ![](.screenshots/Excel_underlying_sheet.png)
+  ![](.screenshots/Refresh_Underlyings.png)
 
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request with your suggestions or enhancements.
