@@ -1,7 +1,7 @@
 # Convertible Bonds Analysis Tool
 
 ## Description
-This tool automates the analysis and ranking of convertible bonds based on various financial metrics and strategies. It integrates real-time financial data, updates convertible bond and underlying stock values, and evaluates them against single-factor or multifactor models for optimal decision-making. Based on the public data, the tool can calculate the implied volitality, option feature value, and price bias of the selected convertible bonds, as well as the implied distance to default (DtD) of the corresponding stock. Designed for financial analysts and investors, it leverages Python libraries such as `xlwings` for Excel integration, `pandas` for data manipulation, and `pysnowball` for accessing financial data from snowball's API.
+This tool automates the analysis and ranking of convertible bonds based on various financial metrics and strategies. It integrates real-time financial data, updates convertible bond and underlying stock values, and evaluates them against single-factor or multifactor models for optimal decision-making. Based on the public data, the tool can calculate the implied volitality, option feature value, and price bias of the selected convertible bonds, as well as the implied distance to default (DtD) of the corresponding stock. Designed for financial analysts and investors, it leverages Python libraries such as `xlwings` for Excel integration, `pandas`, `numpy`, and `scipy.stats` for data manipulation, and `pysnowball` for accessing financial data from snowball's API.
 
 ## Installation
 
@@ -38,6 +38,7 @@ This tool automates the analysis and ranking of convertible bonds based on vario
 
 ## Features
 - **Real-time Data Updates**: Fetches and updates convertible bond and underlying stock data in real-time.
+  ![](.screenshots/Reatime_underlying_values.png)
 - **Multifactor Ranking Models**: Includes several strategies for ranking convertible bonds, such as low premium rate, double low strategy, high differential volatility, and others.
 - **Excel Integration**: Directly updates and manipulates Excel spreadsheets with financial data for easy analysis.
 
