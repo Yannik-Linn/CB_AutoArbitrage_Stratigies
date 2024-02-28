@@ -64,3 +64,12 @@ This project is licensed under the [MIT License](LICENSE.md) - see the LICENSE f
 ## FAQs
 - **Q: How often is data updated?**
   - A: The tool is designed to refresh data based on the user's execution of the script. Scheduled updates can be set within the script using the `schedule` library.
+- **Q: Why there is an error code 400016 when I run the script?**
+  - A: The means you token for the data source does not exist or has expired. Please make sure you have set Firefox as the default explorer and closed Chrome and MS Edge completely.
+- **Q: Why there is an message showing : no available data for year 2024, only year between [2004, 2023] supported. ?**
+  - A: Your chese_calendar has expired, please update it by run:
+     ```
+     pip install -U chinese_calendar
+     ```    
+- **Q: Why the interest rate is same and unchanged?**
+  - A: The risk free interest rate is assumed by the **China 10-Year Government Bond Yield**. Since the data source in use does not provide this data, you need to update it by hand from, e.g.: https://tradingeconomics.com/china/government-bond-yield.
