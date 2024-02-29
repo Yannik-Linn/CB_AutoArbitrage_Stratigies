@@ -26,7 +26,7 @@ This tool automates the analysis and ranking of convertible bonds based on vario
      ```
      xlwings addin install
      ```
-   - Activate the addon in MS Excel following: file >  Options > Trust Center > configure Trust Center > Macrons Settings > Select "Turn on VBA macrons" and click "Trust the visit for VBA project subject models"
+   - Enable Trust access to the VBA project object model under File > Options > Trust Center > Trust Center Settings > Macro Settings. Select "Turn on VBA macrons" and click "Trust the visit for VBA project subject models"
    - Set Firefox as your default explorer, to allow the program to visit the data source website and obtain a free token
 
 2. **Run the Program**
